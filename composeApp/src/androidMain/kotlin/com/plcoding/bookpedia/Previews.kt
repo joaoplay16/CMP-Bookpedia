@@ -4,7 +4,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.plcoding.bookpedia.book.presentation.book_list.BookSearchBar
+import com.plcoding.bookpedia.book.presentation.book_list.components.BookSearchBar
 
 @Preview
 @Composable
