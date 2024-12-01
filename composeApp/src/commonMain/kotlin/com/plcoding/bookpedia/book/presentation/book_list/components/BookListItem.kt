@@ -37,6 +37,7 @@ import cmp_bookpedia.composeapp.generated.resources.Res
 import cmp_bookpedia.composeapp.generated.resources.book_error_2
 import coil3.compose.rememberAsyncImagePainter
 import com.plcoding.bookpedia.book.domain.Book
+import com.plcoding.bookpedia.core.presentation.LightBlue
 import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.painterResource
 import kotlin.math.round
@@ -50,6 +51,7 @@ fun BookListItem(
     Surface(
         shape = RoundedCornerShape(32.dp),
         modifier = modifier.clickable(onClick = onClick),
+        color = LightBlue.copy(0.2f)
         ) {
         Row(
             modifier = Modifier
