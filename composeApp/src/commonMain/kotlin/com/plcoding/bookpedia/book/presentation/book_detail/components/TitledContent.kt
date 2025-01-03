@@ -1,4 +1,4 @@
-package com.plcoding.bookpedia.book.book_detail.components
+package com.plcoding.bookpedia.book.presentation.book_detail.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
