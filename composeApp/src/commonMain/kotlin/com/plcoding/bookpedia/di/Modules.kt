@@ -1,5 +1,6 @@
 package com.plcoding.bookpedia.di
 
+import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailViewModel
 import com.plcoding.bookpedia.book.data.network.KtorRemoteBookDataSource
 import com.plcoding.bookpedia.book.data.network.RemoteBookDataSource
 import com.plcoding.bookpedia.book.data.repository.DefaultBookRepository
@@ -21,5 +22,6 @@ val sharedModule = module {
     singleOf(::DefaultBookRepository).bind<BookRepository>()
 
     viewModelOf(::BookListViewModel)
+    viewModelOf(::BookDetailViewModel)
     viewModelOf(::SelectedBookViewModel)
 }
